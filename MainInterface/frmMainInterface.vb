@@ -6025,7 +6025,7 @@ Public Class frmMainInterface
         Try
             Me.Cursor = Cursors.AppStarting
 
-            If hasCreated(GetType(MainInterface.FChargeBackFeeTool)) = True Then
+            If hasCreated(GetType(MainInterface.FChargeFeeTool)) = True Then
                 FChargeBackFeeTool.Activate()
             Else
                 FChargeBackFeeTool = New FChargeBackFeeTool
